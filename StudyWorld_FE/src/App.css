@@ -1,0 +1,28 @@
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+    background-color: none;
+}
+
+.slick-list {
+    padding: 6px 0 !important;
+}
+
+.slick-slide > div {
+    display: flex;
+    justify-content: center;
+}
+
+:where(.css-dev-only-do-not-override-1phg03q).ant-radio-button-wrapper:not(
+        :first-child
+    )::before {
+    display: none !important;
+}
